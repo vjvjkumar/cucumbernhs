@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="4">
+<testcase classname="Upload resume in JOBS NHS Portal" name="Verify JoBS NHS Login_2" time="49.56463">
+<skipped><![CDATA[Given I open firefox "Firefox".......................................................passed
+When I navigate "appurl"..........................................................passed
+Then I click on "logLink"..........................................................passed
+Then I enter "logemail" as "vardhan.kg"...................................................passed
+Then I enter "logpass" as "testing123"...................................................passed
+And I click on "logbutton".........................................................passed
+Then I got the "JOBS NHS" page........................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Upload resume in JOBS NHS Portal" name="Verify JoBS NHS Login_1" time="14.742302">
+<skipped><![CDATA[Given I open firefox "Firefox".......................................................passed
+When I navigate "appurl"..........................................................passed
+Then I click on "logLink"..........................................................passed
+Then I enter "logemail" as "karnati"....................................................passed
+Then I enter "logpass" as "selenium123"...................................................passed
+And I click on "logbutton".........................................................passed
+Then I got the "My Home Page" page......................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Upload resume in JOBS NHS" name="Register JOBS NHS_2" time="40.640566">
+<system-out><![CDATA[Given I open firefox "Firefox".......................................................passed
+When I navigate "appurl"..........................................................passed
+Then I click on "reglink"..........................................................passed
+Then I enter "regfname" as "Govardhan"...................................................passed
+Then I enter "regsurname" as "Karnati"...................................................passed
+Then I enter "regcountry" as "India"....................................................passed
+Then I enter "regemail" as "gova@gmail.com".................................................passed
+Then I enter "regconfemail" as "gova@gmail.com"...............................................passed
+Then I enter "regpass" as "test123".....................................................passed
+Then I enter "regconfpass" as "test123"...................................................passed
+Then I enter "regsecques" as "A memorable place?"..............................................passed
+Then I enter "regsecans" as "Singapur"...................................................passed
+Then I click on "regcheck".........................................................passed
+Then I click on "regcreate".........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Upload resume in JOBS NHS" name="Register JOBS NHS_1" time="26.221809">
+<system-out><![CDATA[Given I open firefox "Firefox".......................................................passed
+When I navigate "appurl"..........................................................passed
+Then I click on "reglink"..........................................................passed
+Then I enter "regfname" as "Vijay".....................................................passed
+Then I enter "regsurname" as "VVV".....................................................passed
+Then I enter "regcountry" as "India"....................................................passed
+Then I enter "regemail" as "vij@gmail.com".................................................passed
+Then I enter "regconfemail" as "vij@gmail.com"...............................................passed
+Then I enter "regpass" as "java123".....................................................passed
+Then I enter "regconfpass" as "java123"...................................................passed
+Then I enter "regsecques" as "A memorable place?"..............................................passed
+Then I enter "regsecans" as "Singapur"...................................................passed
+Then I click on "regcheck".........................................................passed
+Then I click on "regcreate".........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
